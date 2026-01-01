@@ -273,3 +273,7 @@ PRs welcome. Most of Spark's personality lives in `protocol.md`, not code — so
 ## License
 
 MIT
+
+---
+
+Made with 💛 and mass amounts of guilt-tripping by [@diangao](https://github.com/diangao)
