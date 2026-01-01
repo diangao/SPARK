@@ -1,0 +1,12 @@
+services:
+  spark:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - config/.env
+    volumes:
+      # Mount Think OS from host
+      - ${THINK_OS_PATH:-/root/think-os}:/think-os:rw
+    environment:
+      - THINK_OS_PATH=/think-os
+      - TZ=America/Los_Angeles

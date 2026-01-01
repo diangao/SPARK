@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+venv
+.venv
+*.egg-info
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# Local config (use env vars in production)
+config/.env
+
+# Tests
+tests
+pytest.ini
+.pytest_cache
+
+# Docs
+*.md
+!requirements.txt
+
+# Deploy scripts (not needed in container)
+deploy
